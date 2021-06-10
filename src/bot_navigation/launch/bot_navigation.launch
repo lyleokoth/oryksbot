@@ -5,7 +5,7 @@
   <arg name="move_forward_only" default="false"/>
 
   <!-- bot -->
-  <include file="$(find bot_mapping)/launch/bot_gazebo.launch" />
+  <include file="$(find bot_navigation)/launch/bot_gazebo.launch" />
 
   <!-- Map server -->
   <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
