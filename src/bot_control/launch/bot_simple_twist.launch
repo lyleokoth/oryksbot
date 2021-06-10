@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <!--include file="$(find bot_gazebo)/launch/bot_gazebo.launch" /-->
+    <node pkg="bot_control" type="bot_simple_twist.py" 
+    name="bot_simple_twist">        
+    </node>
+</launch>
