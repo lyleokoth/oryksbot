@@ -13,8 +13,8 @@ converts the joystick inputs into twist commands.
 
 def callback(data):
     twist = Twist()
-    twist.linear.x = 4*data.axes[1]
-    twist.angular.z = 4*data.axes[3]
+    twist.linear.x = data.axes[1]
+    twist.angular.z = data.axes[3]
     pub.publish(twist)
 
 def start():

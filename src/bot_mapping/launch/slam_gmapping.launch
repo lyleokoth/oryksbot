@@ -7,6 +7,10 @@
   <arg name="set_odom_frame" default="odom"/>
   <arg name="set_map_frame"  default="map"/>
 
+  <node pkg="joy" type="joy_node" name="joy_node" />
+  <node pkg="bot_control" type="bot_joy.py" name="bot_joy">
+    </node>
+
     <!-- Gmapping -->
   <node pkg="gmapping" type="slam_gmapping" name="bot_slam_gmapping" output="screen">
     <param name="base_frame" value="$(arg set_base_frame)"/>
