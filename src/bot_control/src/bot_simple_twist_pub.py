@@ -9,7 +9,7 @@ def publish_velocity_commands():
   rospy.init_node('bot_simple_twist_pub', anonymous=True)
 
   msg = Twist()
-  msg.linear.x = 0.1
+  msg.linear.x = 0.4
   msg.linear.y = 0
   msg.linear.z = 0
   msg.angular.x = 0

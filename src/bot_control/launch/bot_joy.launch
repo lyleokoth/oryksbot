@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find bot_gazebo)/launch/bot_gazebo.launch" />
+    <node pkg="bot_control" type="bot_joy.py" name="bot_joy">
+        
+    </node><node pkg="joy" type="joy_node" name="joy_node" />
+</launch>
