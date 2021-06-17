@@ -7,7 +7,20 @@ The software runs on [ROS noetic](http://wiki.ros.org/noetic) and [Ubuntu 20.04]
 The repo also contains the firmware needed to set up the robot, i.e the motor controllers, the lidar sensor
 readers as well as the code for reading other sensors such as the IMU.
 
+## The Motivation
+
 The aim was to come up with an affordable robotics kit for learning mobile robotics using [The Robot Operating System(ROS)](https://www.ros.org/). Initially this simulation uses turtlebot3 burger, but the CAD files for oryksbot will be availed soon. The design of oryks bot was mainly influenced by the pricing and ease of assembly. As such, the parts are either easily 3d printed and drilled for connections or available off-the-shelf. 
 
 ![oryksbot parts list](https://github.com/lyleokoth/oryksbot/blob/main/resources/diff_2.JPG?raw=true)
+
+## The electronics components used are easily available:
+ - Raspberry Pi A3+
+ - Arduino Nano
+ - RPLidar
+ - Raspberry Pi Camera
+ - Motor Controller
+ - Voltage Regulator
+ - Lipo battery
+
+![oryksbot electronics](https://github.com/lyleokoth/oryksbot/blob/main/resources/diff_6.JPG?raw=true)
  
