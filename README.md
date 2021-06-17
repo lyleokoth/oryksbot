@@ -9,7 +9,7 @@ readers as well as the code for reading other sensors such as the IMU.
 
 ## The Motivation
 
-The aim was to come up with an affordable robotics kit for learning mobile robotics using [The Robot Operating System(ROS)](https://www.ros.org/). Initially this simulation uses turtlebot3 burger, but the CAD files for oryksbot will be availed soon. The design of oryks bot was mainly influenced by the pricing and ease of assembly. As such, the parts are either easily 3d printed and drilled for connections or available off-the-shelf. 
+The aim was to come up with an affordable robotics kit for learning mobile robotics using [The Robot Operating System(ROS)](https://www.ros.org/). Initially this simulation uses turtlebot3 burger, but the CAD files for oryksbot will be availed soon. The design of oryks bot was mainly influenced by the pricing and ease of assembly. As such, the parts are either easily 3d printed and drilled for connections or available off-the-shelf. The available robotics kits are either too expensive or just costly to import in some parts of the world such as Kenya.
 
 ![oryksbot parts list](https://github.com/lyleokoth/oryksbot/blob/main/resources/diff_2.JPG?raw=true)
 
@@ -41,4 +41,14 @@ source devel/setup.bash
 roslaunch oryksbot_gazebo oryksbot_gazebo.launch
 ```
 After all the nodes have started, you can start using your joystick to control the robot.
+Driving forward or backwards is achieved using the left joystick axis by moving it up and down. Turning sideways is achieved by moving the right joystick axis left to right or vice versa.
+
+## The Project Workspace
+
+The project workspace consists of four main packages:
+- oryksbot_description
+- oryksbot_gazebo
+- oryksbot_control
+- oryksbot_mapping
+- oryksbot_navigation
  
