@@ -21,6 +21,24 @@ The aim was to come up with an affordable robotics kit for learning mobile robot
  - Motor Controller
  - Voltage Regulator
  - Lipo battery
+ - The Motor Pair
 
 ![oryksbot electronics](https://github.com/lyleokoth/oryksbot/blob/main/resources/diff_6.JPG?raw=true)
+
+To get started, ensure you are running a computer with [Ubuntu 20.04 Focal Fossa](http://www.releases.ubuntu.com/20.04/) and ROS noetic installed. Folow the instruction on [ROS installation](http://wiki.ros.org/noetic) if not.
+
+## Setup
+```
+git clone https://github.com/lyleokoth/oryksbot.git
+cd oryksbot
+catkin_make
+source devel/setup.bash
+```
+
+## Run
+```
+source devel/setup.bash
+roslaunch oryksbot_gazebo oryksbot_gazebo.launch
+```
+After all the nodes have started, you can start using your joystick to control the robot.
  
