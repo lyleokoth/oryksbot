@@ -51,4 +51,8 @@ The project workspace consists of four main packages:
 - oryksbot_control
 - oryksbot_mapping
 - oryksbot_navigation
+
+## TO DO
+
+Describe the packages; show their uses
  
