@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="bot">
 
-  <xacro:arg name="laser_visual" default="true"/>
+  <xacro:arg name="laser_visual" default="false"/>
 
   <gazebo>
     <plugin name="turtlebot3_burger_controller" filename="libgazebo_ros_diff_drive.so">
