@@ -83,7 +83,7 @@
       <geometry>
         <mesh filename="package://bot_description/meshes/right_tire.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="dark"/>
+      <material name="dark"/> 
     </visual>
 
     <collision>
