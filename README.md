@@ -44,7 +44,7 @@ roslaunch bot_control bot_control.launch
 After all the nodes have started, you can start using your joystick to control the robot.
 Driving forward or backwards is achieved using the left joystick axis by moving it up and down. Turning sideways is achieved by moving the right joystick axis left to right or vice versa.
 
-[![oryksbot control video](https://github.com/lyleokoth/oryksbot/blob/burger/resources/bot%20control.png)](https://github.com/lyleokoth/oryksbot/blob/burger/resources/bot%20control.mp4 "Joy Stick control - Click to watch")
+![joystick control](https://github.com/lyleokoth/oryksbot/blob/burger/resources/bot-control.gif)
 
 ## The Project Workspace
 
