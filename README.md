@@ -40,10 +40,12 @@ source devel/setup.bash
 source devel/setup.bash
 roslaunch bot_control bot_control.launch
 ```
+
+![oryksbot control](https://github.com/lyleokoth/oryksbot/blob/burger/resources/bot%20control.png)
+
 After all the nodes have started, you can start using your joystick to control the robot.
 Driving forward or backwards is achieved using the left joystick axis by moving it up and down. Turning sideways is achieved by moving the right joystick axis left to right or vice versa.
 
-![oryksbot control](https://github.com/lyleokoth/oryksbot/blob/burger/resources/bot%20control.png)
 
 ## The Project Workspace
 
