@@ -4,10 +4,10 @@
   <xacro:arg name="imu_visual"   default="false"/>
 
   <gazebo reference="base_link">
-    <material>Gazebo/DarkGrey</material>
+    <material>Gazebo/White</material>
   </gazebo>
 
-  <gazebo reference="wheel_left_link">
+  <gazebo reference="left_wheel">
     <mu1>0.1</mu1>
     <mu2>0.1</mu2>
     <kp>500000.0</kp>
@@ -18,7 +18,7 @@
     <material>Gazebo/FlatBlack</material>
   </gazebo>
 
-  <gazebo reference="wheel_right_link">
+  <gazebo reference="right_wheel">
     <mu1>0.1</mu1>
     <mu2>0.1</mu2>
     <kp>500000.0</kp>
@@ -29,7 +29,7 @@
     <material>Gazebo/FlatBlack</material>
   </gazebo>
 
-  <gazebo reference="caster_back_link">
+  <gazebo reference="caster">
     <mu1>0.1</mu1>
     <mu2>0.1</mu2>
     <kp>1000000.0</kp>
@@ -39,7 +39,7 @@
     <material>Gazebo/FlatBlack</material>
   </gazebo>
 
-  <gazebo reference="base_scan">
+  <!--gazebo reference="base_scan">
     <material>Gazebo/FlatBlack</material>
   </gazebo>
 
@@ -49,6 +49,6 @@
       <visualize>$(arg imu_visual)</visualize>
     </sensor>
     <material>Gazebo/FlatBlack</material>
-  </gazebo>
+  </gazebo-->
 
 </robot>
