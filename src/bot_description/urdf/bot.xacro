@@ -870,7 +870,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="-1.57 0 -1.57" />
       <geometry>
         <mesh
           filename="package://bot_description/meshes/lidar.STL" />
@@ -896,7 +896,7 @@
     type="fixed">
     <origin
       xyz="-0.0375 0.1209 -0.0486"
-      rpy="-1.5708 0 -1.5708" />
+      rpy="0 0 0" />
     <parent
       link="front_cover" />
     <child
