@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find bot_gazebo)/launch/bot_gazebo.launch" />
+    <include file="$(find bot_control)/launch/bot_joy.launch" />
+</launch>
